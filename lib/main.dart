@@ -160,10 +160,17 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: showNotification,
+        onPressed: () {},
+        // showNotification,
         tooltip: 'Increment',
         child: Icon(Icons.add),
       ),
     );
   }
+}
+
+@override
+Widget build(BuildContext context) {
+  // TODO: implement build
+  throw UnimplementedError();
 }
